@@ -25,7 +25,7 @@ class _SearchFeedScreenState extends State<SearchFeedScreen> {
   }
 
   void _fetchPhotos(String query) async {
-    final String apiKey = 'HylHlpOFu8cn4BY3GVNjMFWqn2oQVggVEOt2f4fQMKjqgltuIxfYXqlu';
+    final String apiKey = '';
     final String baseUrl = 'https://api.pexels.com/v1/search?query=$query';
 
     final response = await http.get(Uri.parse(baseUrl), headers: {
